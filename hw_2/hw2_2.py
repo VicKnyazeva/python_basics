@@ -9,7 +9,7 @@ def task_2():
         for e in range(1, N + 1):
             m *= e
             print(m, end=" ")
-    except:
+    except ValueError:
         print("Преобразование введенного числа не удалось")
 
 

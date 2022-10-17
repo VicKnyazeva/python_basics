@@ -18,7 +18,7 @@ def task_4():
 
         calculate_distance(point1, point2)
 
-    except:
+    except ValueError:
         print("Преобразование введенных значений не удалось")
 
 
